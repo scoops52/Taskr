@@ -50,9 +50,15 @@ const handleRemove = () => {
   dispatch(openModal('RemoveTask'));
 }
 
+const playSound = () => {
+  const audio = new Audio('/TaskDoneSound.m4a');
+  audio.play();
+}
+
 if (task.isActive && task.timeRemaining === 0) {
   dispatch(setModalTask({ name: 'CompletedTask',taskId: task.id }));
   dispatch(openModal('CompletedTask'));
+  playSound();
 }
 
 
