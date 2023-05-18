@@ -32,7 +32,7 @@ const CountdownTimer = ({ task }: TaskProps) => {
 
 
   return (
-    <div className={`${task.backgroundColor} relative flex items-center justify-center text-black/50 font-bold h-20 w-20 my-2 mx-auto shadow-lg bg-opacity-50 border-2 border-black/50 rounded-full`}>
+    <div className={`${task.backgroundColor} relative flex items-center justify-center text-black/50 font-bold h-20 w-20 my-2 mx-auto shadow-lg bg-opacity-50 border-2 border-black/50 rounded-full m:h-16 m:w-16`}>
         <h2>{hours}</h2>
         <h2>:{minutes}</h2>
         <h2>:{seconds}</h2>

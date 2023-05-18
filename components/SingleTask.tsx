@@ -89,8 +89,6 @@ if (task.isActive && task.timeRemaining === 0) {
               <FiTrash2 size={32} onClick={handleRemove} className="text-black/75"/>
             </button>
         </div>
-        <div>
-        </div>
       </div>
       <div>
     </div>

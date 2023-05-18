@@ -41,7 +41,7 @@ const CreateTask = () => {
 
 
     return (
-        <form onSubmit={handleAdd} className="bg-white shadow-md rounded-md px-8 pt-6 pb-8 mb-4 w-1/3 h-1/3">
+        <form onSubmit={handleAdd} className="bg-white shadow-md rounded-md px-8 pt-6 pb-8 mb-4 w-full md:w-1/3 lg:w-1/4 xl:w-1/4 h-1/3">
             <div className="mb-4">
                 <h1 className="text-lg font-bold text-center">Create a Task</h1>
             </div>
@@ -85,7 +85,7 @@ const CreateTask = () => {
             </div>
             <div className="mb-6">
                 <label htmlFor='duration' className="label">Task Color</label>
-                <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+                <ul className="grid grid-cols-2 gap-6 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4">
                     <li>
                         <button 
                             onClick={() => {

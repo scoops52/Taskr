@@ -21,7 +21,7 @@ const TaskToggle = ({ task }: TaskProps) => {
     }
 
   return (
-    <button onClick={handleToggle} className={`my-2 ${task.backgroundColor} hover:bg-opacity-50 text-white/50 text-sm font-bold py-2 px-4 rounded-full outline outline-1 outline-offset-1 outline-black/50`} >
+    <button onClick={handleToggle} className={`my-2 ${task.backgroundColor} hover:bg-opacity-50 text-white/50 text-sm font-bold py-2 px-4 rounded-full outline outline-1 outline-offset-1 outline-black/50 md:w-auto`} >
         {label}
     </button>
   )
