@@ -23,7 +23,7 @@ export const exampleTasks: Task[] = [
     },
     {
         id: Math.floor(Math.random() * 1000000),
-        name: 'Work on project',
+        name: 'Practice Guitar',
         duration: 60,
         isActive: false,
         timeRemaining: 60 * 60,
