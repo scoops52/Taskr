@@ -32,5 +32,10 @@ export const modals: Modal[] = [
         name: 'CompletedTask',
         isOpen: false,
         taskId: undefined
-    }
+    },
+    {
+        name: 'About',
+        isOpen: false,
+        taskId: undefined
+    },
 ]

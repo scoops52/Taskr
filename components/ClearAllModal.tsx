@@ -16,7 +16,7 @@ const ClearAllModal = () => {
     }
 
     return (
-        <div className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center">
+        <div>
                 <div className="flex flex-col gap-5 bg-white p-5 rounded">
                     <h1 className="text-xl font-semibold">Are you sure you want to clear all tasks?</h1>
                     <div className="flex justify-center gap-5">
