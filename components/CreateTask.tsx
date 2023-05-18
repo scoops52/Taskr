@@ -41,7 +41,7 @@ const CreateTask = () => {
 
 
     return (
-        <form onSubmit={handleAdd} className="bg-white shadow-md rounded-md px-8 pt-6 pb-8 mb-4 w-full md:w-1/3 lg:w-1/4 xl:w-1/4 h-1/3">
+        <form onSubmit={handleAdd} className="bg-white shadow-md rounded-md px-8 pt-6 pb-8 mb-4 w-full md:w-1/3  h-1/3">
             <div className="mb-4">
                 <h1 className="text-lg font-bold text-center text-black">Create a Task</h1>
             </div>
@@ -59,7 +59,7 @@ const CreateTask = () => {
                 />
             </div>
             <div className="flex flex-wrap -mx-3 mb-6">
-                <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                <div className="w-full lg:w-1/2 px-3">
                     <label htmlFor='duration' className="label">Duration</label>
                     <input
                         type='number'
@@ -70,7 +70,7 @@ const CreateTask = () => {
                         className="input"
                     />
                 </div>
-                <div className="w-full md:w-1/2 px-3">
+                <div className="w-full lg:w-1/2 px-3">
                     <label htmlFor='duration' className="label opacity-0">Minutes</label>
                     <input
                         type='number'
