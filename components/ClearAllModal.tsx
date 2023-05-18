@@ -17,7 +17,7 @@ const ClearAllModal = () => {
 
     return (
         <div>
-                <div className="flex flex-col gap-5 bg-white p-5 rounded">
+                <div className="flex flex-col gap-5 bg-white p-5 rounded text-black">
                     <h1 className="text-xl font-semibold">Are you sure you want to clear all tasks?</h1>
                     <div className="flex justify-center gap-5">
                     <button onClick={handleClear} className="button button-primary">Yes, clear all</button>

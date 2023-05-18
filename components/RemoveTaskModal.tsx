@@ -21,7 +21,7 @@ const RemoveTaskModal = () => {
 
   return (
     <div>
-                <div className="flex flex-col gap-5 bg-white p-5 rounded">
+                <div className="flex flex-col gap-5 bg-white p-5 rounded text-black">
                     <h1 className="text-xl font-semibold">Are you sure you want to remove this task</h1>
                     <div className="flex justify-center gap-5">
                     <button onClick={handleRemove} className="button button-primary">Yes</button>

@@ -52,7 +52,7 @@ const EditTask = () => {
     return (
         <form onSubmit={() => handleEdit(updatedTask)} className="bg-white shadow-md rounded-md px-8 pt-6 pb-8 mb-4 w-full md:w-1/3 lg:w-1/4 xl:w-1/4 xlg:h-1/3">
             <div className="mb-4">
-                <h1 className="text-lg font-bold text-center">Create a Task</h1>
+                <h1 className="text-lg font-bold text-center text-black">Create a Task</h1>
             </div>
             <div className="mb-4">
                 <label htmlFor='name' className="label">
