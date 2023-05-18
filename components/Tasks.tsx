@@ -24,8 +24,8 @@ const Tasks = () => {
             {tasks.length < 1 && <h1 className="text-lg font-bold text-center">No Tasks</h1>}
             <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
                 {tasks.map((task: Task) => (
-                    <li>
-                        <SingleTask key={task.id} task={task} />
+                    <li key={task.id}>
+                        <SingleTask task={task} />
                     </li>
                 ))}
             </ul>

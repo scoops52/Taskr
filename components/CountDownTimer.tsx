@@ -28,7 +28,7 @@ const CountdownTimer = ({ task }: TaskProps) => {
 
         return () => 
         {clearInterval(intervalId)}
-    }, [dispatch, task.isActive, task.timeRemaining])
+    }, [dispatch, task.isActive, task.timeRemaining, task.id])
 
 
   return (
